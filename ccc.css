@@ -1,0 +1,212 @@
+/*
+*cc-ccc v1.0.0
+*
+*Author:chenchen
+*
+*GitHub:https://github.com/1316590732/cc-ccc/upload/main
+*
+*Released under the MIT license
+*
+*Date:2020-10-18 11:45am
+*
+*/
+.bb {
+	outline: 1px solid #f00;
+}
+
+.cbox {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+
+@media (min-width: 768px) {
+	.cbox {
+		width: 750px;
+	}
+}
+
+@media (min-width: 992px) {
+	.cbox {
+		width: 970px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.cbox {
+		width: 1170px;
+	}
+}
+
+.cbox-h {
+
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.row:before,
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.cbox * {
+	box-sizing: border-box
+}
+
+[class *='cl-'] {
+	float: left;
+	min-height: 1px;
+	padding: 15px;
+}
+
+.cl-1 {
+	width: 16.66%;
+}
+
+.cl-2 {
+	width: 33.33%;
+}
+
+.cl-3 {
+	width: 50%;
+}
+
+.cl-4 {
+	width: 66.664%;
+}
+
+.cl-5 {
+	width: 83.33%;
+}
+
+.cl-6 {
+	width: 100%;
+}
+
+@media all and (min-width: 769px) {
+	.cl-hhh-1 {
+		width: 10%;
+	}
+
+	.cl-hhh-2 {
+		width: 20%;
+	}
+
+	.cl-hhh-3 {
+		width: 30%;
+	}
+
+	.cl-hhh-4 {
+		width: 40%;
+	}
+
+	.cl-hhh-5 {
+		width: 50%;
+	}
+
+	.cl-hhh-6 {
+		width: 60%;
+	}
+
+	.cl-hhh-7 {
+		width: 70%;
+	}
+
+	.cl-hhh-8 {
+		width: 80%;
+	}
+
+	.cl-hhh-9 {
+		width: 90%;
+	}
+
+	.cl-hhh-10 {
+		width: 80%;
+	}
+
+}
+
+@media all and (max-width: 768px) {
+	.cl-hhh-1 {
+		width: 10%;
+	}
+
+	.cl-hhh-2 {
+		width: 20%;
+	}
+
+	.cl-hhh-3 {
+		width: 30%;
+	}
+
+	.cl-hhh-4 {
+		width: 40%;
+	}
+
+	.cl-hhh-5 {
+		width: 50%;
+	}
+
+	.cl-hhh-6 {
+		width: 60%;
+	}
+
+	.cl-hhh-7 {
+		width: 70%;
+	}
+
+	.cl-hhh-8 {
+		width: 80%;
+	}
+
+	.cl-hhh-9 {
+		width: 90%;
+	}
+
+	.cl-hhh-10 {
+		width: 80%;
+	}
+}
+
+.cbox-del-p {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.cf-o {
+	font-weight: bold;
+}
+
+.cf-l {
+	text-align: left;
+}
+
+.cf-c {
+	text-align: center;
+}
+
+.cf-r {
+	text-align: right;
+}
+
+.cf-z {
+	text-align: justify;
+}
+
+.clist-x {
+	list-style: none;
+	padding-left: 0;
+}
+
+.cimg-h {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
